@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyomu - Portfolio</title>
+
+    <link rel="stylesheet" href="css/pc.css" />
+    <link rel="stylesheet" href="css/sp.css" />
+
+    <!-- Press Start 2P & Zen Kaku Gothic New-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="index.html"
+        ><img class="head-logo" src="img/Kyomu.png" alt="Kyomu."
+      /></a>
+      <nav class="head-nav">
+        <a href="about.html"><img src="img/nav_About.png" alt="About" /></a>
+        <a href="works-movie.html"
+          ><img src="img/nav_Works.png" alt="Works"
+        /></a>
+        <a href="index.html#Contact"
+          ><img src="img/nav_Contact.png" alt="Contact"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <main>
+        <div class="ttl">
+          <img src="img/Works.png" alt="Works" />
+          <p class="ttl-sub">制作物</p>
+        </div>
+        <div class="flex-works">
+          <aside>
+            <nav class="nav-works">
+              <a href="works-movie.html"
+                ><img src="img/btn_動画.png" alt="動画ボタン" />
+              </a>
+              <a href="works-illustration.html"
+                ><img src="img/btn_イラスト.png" alt="イラストボタン" />
+              </a>
+              <a href="works-music.html"
+                ><img src="img/btn_音楽.png" alt="音楽ボタン" />
+              </a>
+              <a href="works-app.html"
+                ><img src="img/btn_アプリ_on.png" alt="アプリボタン" />
+              </a>
+            </nav>
+          </aside>
+          <ul class="works-list-block">
+            <div class="flex-works-list">
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal20">
+                  <img class="works-img-2" src="img/app_01.png" />
+                  <p class="works-name-2">Sortly</p>
+                  <p class="works-lead-2">アプリ企画 - ゼミ課題(2023-07)</p></a
+                >
+              </li>
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal21">
+                  <img class="works-img-2" src="img/app_02.png" />
+                  <p class="works-name-2">アドリテ</p>
+                  <p class="works-lead-2">アプリ企画 - ゼミ課題(2023-12)</p></a
+                >
+              </li>
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal22">
+                  <img class="works-img-2" src="img/app_03.png" />
+                  <p class="works-name-2">グッズ専用電卓</p>
+                  <p class="works-lead-2">アプリ制作 - 大学課題(2023-01)</p></a
+                >
+              </li>
+            </div>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <!-- モーダルウィンドウ -->
+    <!-- Sortly -->
+    <div id="modal20" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/app_01.png" />
+          <p class="md-name">Sortly 企画・サイト制作</p>
+          <ul class="md-list">
+            <li class="md-day">2023/07</li>
+            <li class="md-sw">使用ソフト：figma(モックアップ)</li>
+            <li class="md-sw">使用言語：HTML, CSS, JavaScript</li>
+          </ul>
+          <p class="md-point">
+            <a
+              class="md-link"
+              href="https://www.ogis-ri.co.jp/otc/contest/osca2023/"
+            >
+              第14回OSCA「寝かせて使う」ソフトウェアアイデアコンテスト</a
+            >応募作品です。4人でグループワークを行い、寝かせるを「思考を寝かせる(=冷静になる)」と解釈し、タスクの優先順位を、二次元マップを用いて管理するアプリを企画しました。
+          </p>
+          <a href="https://ai-ugok.github.io/sortly/" target="_blank">
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- アドリテ -->
+    <div id="modal21" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/app_02.png" />
+          <p class="md-name">アドリテ 企画・サイト制作</p>
+          <ul class="md-list">
+            <li class="md-day">2023/12</li>
+            <li class="md-sw">使用ソフト：figma(モックアップ)</li>
+            <li class="md-sw">使用言語：HTML, CSS, JavaScript</li>
+          </ul>
+          <p class="md-point">
+            <a
+              class="md-link"
+              href="https://www.obunsha.co.jp/pr/award_4/2023_1/"
+            >
+              第4回学びを変える！未来の「学参」企画大賞</a
+            >未来の学習アプリ部門への応募作品です。5人でグループワークを行い、「ネットリテラシーを学ぶ」というテーマで、SNSを擬似的に体験できるアプリを企画しました。
+          </p>
+          <a href="https://kyomuchan.github.io/adlite/" target="_blank">
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- グッズ専用電卓 -->
+    <div id="modal22" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/app_03.png" />
+          <p class="md-name">グッズ電卓 アプリ</p>
+          <ul class="md-list">
+            <li class="md-day">2023/01</li>
+            <li class="md-sw">
+              使用言語：HTML、CSS、JavaScript(petite-vue.js)
+            </li>
+          </ul>
+          <p class="md-point">
+            推しのグッズは発売前に公開され、発売後にすぐ購入できるように、発売前に購入するグッズを選び価格を計算しておく必要があります。普通の電卓でも計算できるが、よりわかりやすく示すために、イラストを用いて、合計だけでなく、グッズごとの個数や合計も見られるようにしました。単価や送料は変更可能です。
+          </p>
+          <a
+            href="https://kyomuchan.github.io/goods-calculator/"
+            target="_blank"
+          >
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <ul class="foot-list">
+        <li class="foot-item">
+          <a href="about.html"> <p class="foot-name">About</p> </a>
+          <p class="foot-lead">私について</p>
+        </li>
+        <li class="foot-item">
+          <a href="works-movie.html"> <p class="foot-name">Works</p> </a>
+          <p class="foot-lead">制作物</p>
+          <ul class="foot-wlist">
+            <div class="flex-1">
+              <a href="works-movie.html"><li>動画編集</li></a>
+              <a href="works-music.html"> <li>音源制作</li></a>
+            </div>
+            <div class="flex-2">
+              <a href="works-illustration.html"> <li>イラスト制作</li></a>
+              <a href="works-app.html"> <li>アプリ制作/企画</li></a>
+            </div>
+          </ul>
+        </li>
+        <li class="foot-item">
+          <a href="index.html#Contact"> <p class="foot-name">Contact</p></a>
+          <p class="foot-lead">お問い合わせ</p>
+        </li>
+      </ul>
+      <li class="foot-copyright">
+        <a href="index.html"><p>Kyomu.</p></a>
+        <small>&copy; 2024 Kyomu.</small>
+      </li>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/petite-vue"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

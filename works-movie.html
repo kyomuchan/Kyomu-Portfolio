@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyomu - Portfolio</title>
+
+    <link rel="stylesheet" href="css/pc.css" />
+    <link rel="stylesheet" href="css/sp.css" />
+
+    <!-- Press Start 2P & Zen Kaku Gothic New-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="index.html"
+        ><img class="head-logo" src="img/Kyomu.png" alt="Kyomu."
+      /></a>
+      <nav class="head-nav">
+        <a href="about.html"><img src="img/nav_About.png" alt="About" /></a>
+        <a href="works-movie.html"
+          ><img src="img/nav_Works.png" alt="Works"
+        /></a>
+        <a href="index.html#Contact"
+          ><img src="img/nav_Contact.png" alt="Contact"
+        /></a>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <main>
+        <div class="ttl">
+          <img src="img/Works.png" alt="Works" />
+          <p class="ttl-sub">制作物</p>
+        </div>
+        <div class="flex-works">
+          <!-- 画面切り替え -->
+          <aside>
+            <nav class="nav-works">
+              <a href="works-movie.html"
+                ><img src="img/btn_動画_on.png" alt="動画ボタン" />
+              </a>
+              <a href="works-illustration.html"
+                ><img src="img/btn_イラスト.png" alt="イラストボタン" />
+              </a>
+              <a href="works-music.html"
+                ><img src="img/btn_音楽.png" alt="音楽ボタン" />
+              </a>
+              <a href="works-app.html"
+                ><img src="img/btn_アプリ.png" alt="アプリボタン" />
+              </a>
+            </nav>
+          </aside>
+          <ul class="works-list-block">
+            <div class="flex-works-list">
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal01">
+                  <img class="works-img-2" src="img/movie_01.JPG" />
+                  <p class="works-name-2">マインクラフト実況編集</p>
+                  <p class="works-lead-2">ゲーム実況</p></a
+                >
+              </li>
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal02">
+                  <img class="works-img-2" src="img/movie_02.png" />
+                  <p class="works-name-2">MV制作</p>
+                  <p class="works-lead-2">
+                    歌ってみたMV/オリジナルMV/サンプルMV
+                  </p></a
+                >
+              </li>
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal03">
+                  <img class="works-img-2" src="img/movie_03.png" />
+                  <p class="works-name-2">ショート動画制作</p>
+                  <p class="works-lead-2">Shorts動画</p></a
+                >
+              </li>
+              <li class="works-item-2">
+                <a href="" class="md-btn" data-target="modal04">
+                  <img class="works-img-2" src="img/movie_04.png" />
+                  <p class="works-name-2">ゲーム紹介動画制作</p>
+                  <p class="works-lead-2">その他</p>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <!-- モーダルウィンドウ -->
+    <!-- 実況動画 -->
+    <div id="modal01" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/movie_01.JPG" />
+          <p class="md-name">マインクラフト実況編集</p>
+          <ul class="md-list">
+            <li class="md-day">2022/09~</li>
+            <li class="md-sw">使用ソフト：Premire Pro</li>
+          </ul>
+          <p class="md-point">
+            2人視点のゲーム実況動画編集です。テンポ感の良いカットや多様なデザインや動きのテロップで、視聴者を飽きさせないように工夫しました。また、実況者のボケに対してテロップでツッコミを入れることで、トークの面白さを演出しました。
+          </p>
+          <a
+            href="https://youtu.be/Ra6HcGFKTEo?si=AIo7mt9vMJ4ulDVC"
+            target="_blank"
+          >
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MV制作 -->
+    <div id="modal02" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/movie_02.png" />
+          <p class="md-name">MV制作</p>
+          <ul class="md-list">
+            <li class="md-day">2022/08~</li>
+            <li class="md-sw">使用ソフト：Premire Pro, After Effect</li>
+          </ul>
+          <p class="md-point">
+            主に歌ってみた動画の本家寄せMVを制作しました。シンプルな動画はPremire
+            Pro、複雑なアニメーションを扱う動画はAfter Effectを使用し再現した。
+          </p>
+          <a
+            href="https://youtu.be/DSFOm4NIuMs?si=p5_E9WjAzxj3-F67"
+            target="_blank"
+          >
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ショート動画制作 -->
+    <div id="modal03" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/movie_03.png" />
+          <p class="md-name">ショート動画制作</p>
+          <ul class="md-list">
+            <li class="md-day">2023/08~</li>
+            <li class="md-sw">使用ソフト：Premire Pro</li>
+          </ul>
+          <p class="md-point">
+            可愛いテロップデザインを作成し、エフェクトやSEを駆使して視聴者を飽きさせない、動きのある動画を制作しました。カフェ風の背景はAIで生成しました。
+          </p>
+          <a
+            href="https://youtu.be/OVhbp1miKv0?si=oaIo0foPEmEsvBF_"
+            target="_blank"
+          >
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ゲーム紹介動画制作 -->
+    <div id="modal04" class="modal">
+      <div class="md-overlay md-close"></div>
+      <div class="md-contents">
+        <a class="md-xmark md-close">
+          <span></span>
+          <span></span>
+        </a>
+        <div class="md-inner">
+          <img class="md-img" src="img/movie_04.png" />
+          <p class="md-name">ゲーム紹介動画制作</p>
+          <ul class="md-list">
+            <li class="md-day">2022/10/20</li>
+            <li class="md-sw">使用ソフト：Premire Pro</li>
+          </ul>
+          <p class="md-point">
+            何の説明をしているかをテロップで明確にし、その説明を簡単にまとめてテロップに起こしました。静止画の背景は少しずつ動かすことで、単調にならないようにしました。トークンやNFT購入の説明は、公式HPを画面録画して素材を準備しました。
+          </p>
+          <a
+            href="https://youtu.be/8vhzFfcoOEQ?si=3-gnF6Kj7Uuwcy6a"
+            target="_blank"
+          >
+            <img class="md-button" src="img/btn_watching.png" alt="watching"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <ul class="foot-list">
+        <li class="foot-item">
+          <a href="about.html"> <p class="foot-name">About</p> </a>
+          <p class="foot-lead">私について</p>
+        </li>
+        <li class="foot-item">
+          <a href="works-movie.html"> <p class="foot-name">Works</p> </a>
+          <p class="foot-lead">制作物</p>
+          <ul class="foot-wlist">
+            <div class="flex-1">
+              <a href="works-movie.html"><li>動画編集</li></a>
+              <a href="works-music.html"> <li>音源制作</li></a>
+            </div>
+            <div class="flex-2">
+              <a href="works-illustration.html"> <li>イラスト制作</li></a>
+              <a href="works-app.html"> <li>アプリ制作/企画</li></a>
+            </div>
+          </ul>
+        </li>
+        <li class="foot-item">
+          <a href="index.html#Contact"> <p class="foot-name">Contact</p></a>
+          <p class="foot-lead">お問い合わせ</p>
+        </li>
+      </ul>
+      <li class="foot-copyright">
+        <a href="index.html"><p>Kyomu.</p></a>
+        <small>&copy; 2024 Kyomu.</small>
+      </li>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/petite-vue"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
