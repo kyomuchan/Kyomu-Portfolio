@@ -573,10 +573,10 @@ img {
   .md-contents {
     display: none;
     position: fixed;
-    top: 10%;
+    top: 7%;
     left: 50%;
     width: 90%;
-    height: 90%;
+    height: 80%;
     overflow-y: scroll;
     transform: translateX(-50%);
     z-index: 10000;
